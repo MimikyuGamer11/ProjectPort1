@@ -1,6 +1,7 @@
 function setup() {
   createCanvas(400,400);
   createSprite(400, 200, 50, 50);
+}
   //crear paddle y ball - paleta y pelota
 var paddle = createSprite(200, 375, 50, 15);
 var ball = createSprite(150, 250, 20, 20);
@@ -43,7 +44,6 @@ var box15 = createSprite(325, 125, 50, 50);
 box15.shapeColor="blue";
 var box16 = createSprite(375, 125, 50, 50);
 box16.shapeColor="red";
-}
 
 function draw() {
   background("white");
