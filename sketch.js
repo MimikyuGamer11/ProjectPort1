@@ -47,7 +47,7 @@ box16.shapeColor="red";
 
 function draw() {
   background("white");
-  sprites();
+  setup();
   
   //mostrar puntuación
   textSize(20);
