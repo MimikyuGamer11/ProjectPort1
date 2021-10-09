@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(400,400);
-  createSprite(400, 200, 50, 50);
+  createSprite(200, 200, 50, 50);
 }
   //crear paddle y ball - paleta y pelota
 var paddle = createSprite(200, 375, 50, 15);
