@@ -1,11 +1,9 @@
 function setup() {
   createCanvas(400,400);
   createSprite(200, 200, 50, 50);
-}
-function sprites(){
-  //crear paddle y ball - paleta y pelota
-var paddle = createSprite(200, 375, 50, 15);
+  var paddle = createSprite(200, 375, 50, 15);
 var ball = createSprite(150, 250, 20, 20);
+    //crear paddle y ball - paleta y pelota
 
 var score=0;
 var gameState ="serve";
@@ -46,8 +44,10 @@ box15.shapeColor="blue";
 var box16 = createSprite(375, 125, 50, 50);
 box16.shapeColor="red";
 }
+
 function draw() {
   background("white");
+  sprites();
   
   //mostrar puntuación
   textSize(20);
